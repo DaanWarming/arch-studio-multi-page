@@ -1,0 +1,1728 @@
+*{
+    font-family: 'Spartan', sans-serif;
+}
+
+/* top navigation bar */
+
+.topnav {
+    padding-left: 16%;
+    overflow: auto;
+}
+
+.topnav p {
+    float: left;
+    color: #1B1D23;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -5.2px;
+    margin-right: 2rem;
+    margin-left: 4.6rem;
+    margin-top: -1rem;
+}
+
+.topnav a {
+    float: left;
+    color: #7D828F;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 3.2rem;
+    padding-right: 3.4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.topnav a:hover {
+    color: #1B1D23;
+}
+
+.lineHome {
+    float: left;
+    position: absolute;
+}
+
+.vl {
+    border-left: 2px solid #C8CCD8;
+    height: 100px;
+}
+
+#topHome {
+    transform: rotate(90deg);
+    left: 100%;
+    margin-top: 5rem;
+    margin-left: -3.7rem;
+    letter-spacing: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #C8CCD8;
+}
+
+#topPortfolio {
+    transform: rotate(90deg);
+    left: 100%;
+    margin-top: 8rem;
+    margin-left: -7.5rem;
+    letter-spacing: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #C8CCD8;
+}
+
+#topAbout {
+    transform: rotate(90deg);
+    left: 100%;
+    margin-top: 8rem;
+    margin-left: -6.5rem;
+    letter-spacing: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #C8CCD8;
+}
+
+/* slide show  */
+
+.slideshowContainer {
+    max-width: 80%;
+}
+
+.homeSlides {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 25%;
+    max-width: 80%;
+    display: none;
+}
+
+.homeSlides img {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    filter: brightness(65%);
+    max-width: 1400px;
+}
+
+.headerText {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    margin-left: 17%;
+    margin-top: 6.4rem;
+}
+
+.headerText h1 {
+    font-size: 4.8rem;
+    letter-spacing: -2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97%;
+}
+
+.headerText p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-style: normal;
+    line-height: 25px;
+    max-width: 400px;
+    margin-top: -2rem;
+}
+
+.headerText button {
+    margin-top: 1rem;
+    background-color: #1B1D23;
+    border: 0;
+    width: 16rem;
+    height: 4rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.slideButtonsContainer {
+    margin-left: 20%;
+}
+
+.slideButtons {
+    margin-top: -5.3rem;
+    margin-left: -71.7px;
+}
+
+.slideButtons button {
+    position: relative;
+    background-color: white;
+    border: 0;
+    margin-right: -4.5px;
+    width: 4.5rem;
+    height: 80px;
+    max-height: 90px;
+    color: #7D828F;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.slideButtons button:active {
+    position: relative;
+    background-color: #1B1D23;
+    border: 0;
+    margin-right: -4.5px;
+    width: 4.5rem;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.slideButtons button:focus {
+    position: relative;
+    background-color: #1B1D23;
+    border: 0;
+    outline: 0;
+    margin-right: -4.5px;
+    width: 4.5rem;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.slideButtonsSelected {
+    position: relative;
+    background-color: #1B1D23;
+    border: 0;
+    margin-right: -4.5px;
+    width: 4.5rem;
+    height: 80px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+ /* welcome to Arch Studio */
+
+.homeWelcome {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+}
+
+.homeWelcome img {
+    float: right;
+    max-width: 1530px;
+    height: auto;
+}
+
+.welcomeContainer h2 {
+    font-size: 11rem;
+    font-weight: 700;
+    letter-spacing: -5px;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -6.5rem;
+    color: #EEEFF4;
+}
+
+#welcomeToArch {
+    font-weight: bold;
+    font-size: 56px;
+    margin-top: 4.5rem;
+    margin-left: 10rem;
+    min-width: 30rem;
+    letter-spacing: -2px;
+}
+
+#welcomePara {
+    margin-left: -30rem;
+    margin-top: 15rem;
+    margin-right: 9.5rem;
+}
+
+/* Small team, big ideas */
+
+.homeAboutUs {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/assets2/home/desktop/image-small-team.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 11rem;
+    padding-bottom: 8rem;
+    min-height:max-content;
+    overflow: auto;
+}
+
+.homeAboutUs p {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: white;
+    margin-left: 17.2%;
+    margin-top: 14%;
+}
+
+.homeAboutUs button {
+    margin-top: 1rem;
+    background-color: #1B1D23;
+    border: 0;
+    width: 9rem;
+    height: 4rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 17.2%;
+    margin-top: -5rem;
+}
+
+/* Featured */
+
+#featured1 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/desktop/image-del-sol.jpg);
+}
+
+#featured2 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/desktop/image-228b.jpg);
+}
+
+#featured3 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/desktop/image-prototype.jpg);
+
+}
+
+.homeFeatured {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.featuredColumnContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredColumn {
+    background-repeat: no-repeat;
+    width: 31.5%;
+    height: 35rem;
+}
+
+.featuredColumn p:first-of-type {
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.5;
+    float: right;
+    margin-top: 0rem;
+    margin-right: -15px;
+}
+
+.featuredColumn p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 29rem;
+    margin-left: 13%;
+}
+
+.featuredColumn a {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin-top: -29rem;
+    margin-left: 13%;
+}
+
+.homeFeatured h3 {
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.homeFeatured button {
+    margin-top: 1rem;
+    background-color: #1B1D23;
+    border: 0;
+    width: 10rem;
+    height: 4rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-top: -7.5rem;
+}
+
+button:hover {
+    background-color: #666;
+    color: white;
+}
+
+
+/* Footer */
+.footerContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.footerContainerExtra {
+    background-color: #EEEFF4;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: -7rem;
+    height: 11.5rem;
+}
+
+.footerArch {
+    display: flex;
+    justify-content: center;
+    background-color: #1B1D23;
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -5.2px;
+    height: 100%;
+    width: 12rem;
+    margin-right: 2.5rem;
+}
+
+.footerArch p {
+    margin-top: 4.3rem;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: auto;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #7D828F;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 3.5rem;
+}
+
+footer ul a:hover {
+    color: #1B1D23;
+}
+
+footer button {
+    background-color: #1B1D23;
+    border: 0;
+    width: 14.5rem;
+    height: 4rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+/* Portfolio */
+
+.portfolioContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolioProject {
+    width: 31.5%;
+    height: 35rem;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.portfolioProject:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.projectText {
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectText p {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.projectText p:nth-child(2){
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: -8px;
+}
+
+#seraph {
+    background-image: url("/assets2/portfolio/desktop/image-seraph.jpg");
+    margin-bottom: 2rem;
+}
+
+#eebox {
+    background-image: url("/assets2/portfolio/desktop/image-eebox.jpg");
+}
+
+#federal {
+    background-image: url("/assets2/portfolio/desktop/image-federal.jpg");
+}
+
+#delSol {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/desktop/image-del-sol.jpg");
+    margin-bottom: 2rem;
+}
+
+#lePrototype {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/desktop/image-prototype.jpg");
+}
+
+#tower {
+    background-image: url("/assets2/portfolio/desktop/image-228b.jpg");
+}
+
+#grandEdelweiss {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/desktop/image-edelweiss.jpg");
+}
+
+#netcry {
+    background-image: url("/assets2/portfolio/desktop/image-netcry.jpg");
+    margin-bottom: 2rem;
+}
+
+#hypers {
+    background-image: url("/assets2/portfolio/desktop/image-seraph.jpg");
+}
+
+#sxivTower {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 200%), url("/assets2/portfolio/desktop/image-sxiv.jpg");
+    margin-bottom: 12rem;
+}
+
+#trinityBank {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/desktop/image-trinity.jpg");
+}
+
+#projectParamour {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/desktop/image-paramour.jpg");
+}
+
+/* About Us header */
+
+.aboutUsHeader {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0.01%, rgba(0, 0, 0, 0.40) 100%), url("/assets2/about/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-size: 40rem;
+}
+
+.aboutUsHeader h1 {
+    font-size: 200px;
+    font-weight: 700;
+    color: #EEEFF4;
+    z-index: 1;
+}
+
+#aboutLine {
+    border-top: 2px solid #C8CCD8;
+    width: 80px;
+}
+
+.aboutUsHeaderText {
+    background-color: white;
+    width: 30rem;
+    margin-top: -15.5rem;
+    padding-left: 10rem;
+    padding-top: 7.5rem;
+}
+
+.aboutUsHeaderText p {
+    color: #1B1D23;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 35rem;
+}
+
+.aboutUsHeaderText p:nth-child(3) {
+    font-weight: 500;
+    color: #60636D;
+    font-size: 15px;
+    line-height: 25px
+}
+
+/* Our Heritage */
+
+.ourHeritage {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10rem;
+}
+
+#ourHeritageLine {
+    border-top: 2px solid #C8CCD8;
+    width: 80px;
+}
+
+.ourHeritage h2 {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    margin-top: 6rem;
+}
+
+.ourHeritage p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #60636D;
+    line-height: 25px;
+    margin-right: 34rem;
+}
+
+.ourHeritage img {
+    float: right;
+    margin-top: -32rem;
+    max-width: 30rem;
+}
+
+/* The Leaders */
+
+.theLeaders {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    overflow: hidden;
+}
+
+.theLeaders h3 {
+    font-weight: 700;
+    font-size: 56px;
+    color: #1B1D23;
+    letter-spacing: -2px;
+}
+
+.leaderImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -11.5rem;
+    width: 60rem;
+    float: right;
+}
+
+.leaderImage img {
+    max-width: 20rem;
+}
+
+.leaderImage img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.leaderImage img:hover + .icons {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icons {
+    display: none;
+    position: absolute;
+    margin-left: -13rem;
+    margin-top: 7.5rem;
+}
+
+.icons img:nth-child(1) {
+    margin-right: 1rem;
+}
+
+.leaderImage:nth-child(even) {
+    margin-left: 2rem;
+}
+
+.leaderSubText {
+    margin-bottom: 4rem;
+}
+
+.leaderSubText p {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1B1D23;
+    line-height: 25px;
+}
+
+.leaderSubText p:nth-child(2) {
+    font-weight: 500;
+    font-size: 15px;
+    color: #1B1D23;
+    line-height: 5px;
+}
+
+/* Contact */
+
+#topContact {
+    transform: rotate(90deg);
+    left: 100%;
+    margin-top: 8rem;
+    margin-left: -6.1rem;
+    letter-spacing: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #C8CCD8;
+}
+
+.contactHeader {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0.01%, rgba(0, 0, 0, 0.40) 100%), url("/assets2/contact/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-size: 40rem;
+}
+
+.contactHeader h1 {
+    font-size: 200px;
+    font-weight: 700;
+    color: #EEEFF4;
+    z-index: 1;
+}
+
+#contactLine {
+    border-top: 2px solid #C8CCD8;
+    width: 80px;
+}
+
+.contactHeaderText {
+    background-color: white;
+    width: 30rem;
+    margin-top: -15.5rem;
+    padding-left: 10rem;
+    padding-top: 7.5rem;
+}
+
+.contactHeaderText p {
+    color: #1B1D23;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 35rem;
+}
+
+.contactHeaderText p:nth-child(3) {
+    font-weight: 500;
+    color: #60636D;
+    font-size: 15px;
+    line-height: 25px
+}
+
+/* Contact Details */
+
+.contactDetails {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.contactDetailsLine {
+    border-top: 2px solid #C8CCD8;
+    width: 80px;
+    margin-bottom: 4rem;
+}
+
+.contactText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactText h2 {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    margin-top: 0rem;
+    max-width: 18rem;
+}
+
+.contactInfo p:nth-child(1) {
+    font-weight: 700;
+    font-size: 15px;
+    color: #60636D;
+    margin-bottom: 2rem;
+}
+
+.contactInfo p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #60636D;
+    line-height: 20px;
+}
+
+.contactInfo p:nth-child(4) {
+    margin-bottom: 3rem;
+}
+
+.contactInfo a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #1B1D23;
+    text-decoration: none;
+}
+
+.contactInfo a:hover {
+    text-decoration: underline;
+}
+
+.mapouter {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Connect with us */
+
+.contactConnect {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10rem;
+    margin-bottom: 25rem;
+}
+
+.contactConnect h3 {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: #1B1D23;
+    max-width: 20rem;
+}
+
+.contactConnect form {
+    margin-top: -11.5rem;
+}
+
+.contactConnect input {
+    width: 40rem;
+    float: right;
+}
+
+.contactConnect input[type=text] {
+    border: none;
+    border-bottom: 1px solid #1B1D23;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.3125px;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color: #C8CCD8;
+    margin-bottom: 2.5rem;
+}
+
+#email {
+    margin-bottom: 4rem;
+}
+
+.contactConnect input[type=submit] {
+    background-color: #1B1D23;
+    border: 0;
+    width: 5rem;
+    height: 5rem;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    margin-right: -41.15rem;
+}
+
+.contactConnect input[type=submit]:hover {
+    background-color: #666;
+    color: white;
+}
+
+.contactConnect input:focus:placeholder {
+    color: transparent;
+}
+
+
+/*  Smaller screen 
+
+    Home screen */
+@media screen and (max-width: 1550px) {
+    .contactConnect input {
+        width: 30rem;
+    }
+
+    .contactConnect input[type=submit] {
+        margin-top: 2.5rem;
+        margin-right: -31.15rem;
+    }
+
+    .mapouter {
+        display: none;
+    }
+
+    .contactInfo a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .headerText {
+        margin-top: 3rem;
+    }
+
+    .headerText h1 {
+        font-size: 3.5rem;
+    }
+
+    .headerText p {
+        font-size: 0.7rem;
+    }
+
+    .headerText button {
+        margin-top: 1rem;
+        width: 12rem;
+        height: 3rem;
+        font-size: 0.7rem;
+    }
+
+    /* welcome to Arch Studio */
+    .homeWelcome img {
+        display: none;
+    }
+
+    .welcomeContainer h2 {
+        font-size: 120px;
+    }
+
+    #welcomeToArch {
+        font-size: 56px;
+        margin-top: 4.5rem;
+        margin-left: 0rem;
+    }
+
+    /* Small team, big ideas */
+    .homeAboutUs {
+        margin-top: 10rem;
+        padding-bottom: 3rem;
+    }
+
+    .homeAboutUs p {
+        margin-top: 8%;
+    }
+
+    /* footer */
+    footer ul a {
+        margin-right: 1.5rem;
+    }
+
+    .footerArch {
+        margin-right: 0.5rem;
+    }
+
+    /* About Us */
+    .ourHeritage p {
+        margin-right: 0rem;
+    }
+
+    .ourHeritage img {
+        display: none;
+    }
+
+    .theLeaders {
+        margin-top: 7rem;
+    }
+
+    .leaderImageContainer {
+        justify-content: flex-start;
+        margin-top: 0rem;
+        width: 60rem;
+        float: none;
+    }
+
+    /* Contact */
+    .contactHeader h1 {
+        font-size: 120px;
+        margin-top: 13rem;
+    }
+
+    .contactHeaderText {
+        background-color: white;
+        width: 30rem;
+        margin-top: -9rem;
+        padding-left: 4rem;
+        padding-top: 5.5rem;
+        letter-spacing: -2px;
+    }
+
+}
+
+@media screen and (max-width: 1290px) {
+    .contactText {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .contactText h2 {
+        max-width: 35rem;
+    }
+
+    .contactConnect h3 {
+        max-width: 35rem;
+    }
+    .contactConnect form {
+        margin-top: 0rem;
+    }
+    
+    .contactConnect input {
+        max-width: 30rem;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .slideButtonsContainer {
+        display: none;
+    }
+
+    .homeAboutUs {
+        padding-bottom: 1rem;
+    }
+
+    .homeAboutUs p {
+        margin-top: 4%;
+    }
+
+    #welcomePara {
+        margin-right: 0rem;
+    }
+
+    footer ul a {
+        margin-right: 0.5rem;
+    }
+
+    .footerArch {
+        margin-right: -1.5rem;
+    }
+
+    footer button {
+        width: 12rem;
+        height: 4rem;
+        font-size: 0.8rem;
+    }
+
+    .aboutUsHeaderText{
+        margin-top: -9rem;
+    }
+
+    .aboutUsHeader h1 {
+        margin-top: 11rem;
+        font-size: 120px;
+    }
+    .theLeaders {
+        margin-right: 10%;
+    }
+    .leaderImageContainer {
+        max-width: 40rem;
+    }
+    .leaderImage img:nth-child(1) {
+        max-width: 15rem;
+    }
+}
+
+@media screen and (max-width: 1050px) { 
+    .footerContainerExtra {
+        height: 7rem;
+    }
+
+    .footerArch {
+        width: 8rem;
+    }
+
+    .footerArch p {
+        margin-top: 2rem;
+    }
+
+    .contactHeader {
+        background-image: url("/assets2/contact/mobile/image-hero.jpg");
+    }
+}
+
+@media screen and (max-width: 950px) { 
+    .topnav p {
+        margin-right: 0rem;
+        margin-left: 2.4rem;
+    }
+
+    .topnav a {
+        margin-top: 3.2rem;
+        padding-right: 2rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .headerText {
+        margin-top: 6rem;
+    }
+
+    .homeSlides img {
+        content: url('/assets2/home/tablet/image-hero-paramour.jpg');
+        max-height: 30rem;
+    }
+
+    .homeAboutUs {
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/assets2/home/tablet/image-small-team.jpg");
+        padding-bottom: 5rem;
+    }
+
+    .homeAboutUs p {
+        margin-top: 24%;
+    }
+
+    .homeSlides img {
+        content: url('/assets2/home/tablet/image-hero-paramour.jpg');
+        max-height: 30rem;
+    }
+
+    .welcomeContainer h2 {
+        font-size: 85px;
+    }
+
+    #welcomeToArch {
+        margin-top: 1rem;
+    }
+
+    #welcomePara {
+        margin-top: 12rem;
+        margin-right: 0rem;
+    }
+
+    .featuredColumnContainer {
+        flex-direction: column;
+        height: 45rem;
+    }
+
+    .featuredColumn {
+        width: 100%;
+        height: 31.5%;
+    }
+
+    #featured1 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/tablet/image-del-sol.jpg);
+    }
+    
+    #featured2 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/tablet/image-228b.jpg);
+    }
+    
+    #featured3 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/tablet/image-prototype.jpg);
+    
+    }
+
+    .featuredColumn p {
+        margin-top: 8.5rem;
+        margin-left: 8%;
+    }
+
+    .featuredColumn a {
+        margin-left: 8%;
+    }
+
+    .footerContainer {
+        flex-direction: column;
+    }
+
+    .footerContainerExtra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-right: 0rem;
+        height: 21rem;
+    }
+
+    .footerArch {
+        width: 8rem;
+        height: 7rem;
+        margin-top: -8rem;
+    }
+
+    .footerArch p {
+        font-size: 26px;
+        margin-top: 2.5rem;
+        letter-spacing: -3px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 0rem;
+        height: 10rem;
+    }
+
+    .footerContainer button {
+        margin-left: 0rem;
+        margin-right: -1.5rem;
+        margin-top: -5rem;
+    } 
+
+    .portfolioContainer {
+        margin-left: 20%;
+        margin-right: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .portfolioProject {
+        width: 100%;
+        height: 15rem;
+    }
+    
+    
+    #seraph {
+        background-image: url("/assets2/portfolio/tablet/image-seraph.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #eebox {
+        background-image: url("/assets2/portfolio/tablet/image-eebox.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #federal {
+        background-image: url("/assets2/portfolio/tablet/image-federal.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #delSol {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-del-sol.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #lePrototype {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-prototype.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #tower {
+        background-image: url("/assets2/portfolio/tablet/image-228b.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #grandEdelweiss {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-edelweiss.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #netcry {
+        background-image: url("/assets2/portfolio/tablet/image-netcry.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #hypers {
+        background-image: url("/assets2/portfolio/tablet/image-hypers.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #sxivTower {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 200%), url("/assets2/portfolio/tablet/image-sxiv.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #trinityBank {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-trinity.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #projectParamour {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-paramour.jpg");
+        margin-bottom: 6rem;
+    }
+
+    .contactConnect input[type=submit] {
+        margin-top: 2.5rem;
+        margin-right: 0rem;
+    }
+}
+
+@media screen and (max-width: 740px) { 
+    .topnav {
+        padding-left: 5%;
+    }
+    
+    .topnav p {
+        
+        font-size: 40px;
+        letter-spacing: -5.2px;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        margin-top: -1rem;
+    }
+
+    .lineHome {
+        display: none;
+    }
+    
+    .vl {
+        display: none;
+    }
+
+    .slideshowContainer {
+        max-width: 90%;
+    }
+
+    .homeSlides {
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 90%;
+    }
+
+    .homeWelcome {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .welcomeContainer h2 {
+        margin-left: 5%;
+        font-size: 85px;
+    }
+
+    #welcomeToArch {
+        margin-top: 1rem;
+    }
+
+    #welcomePara {
+        margin-top: 12rem;
+        margin-right: 0rem;
+    }
+
+    .homeAboutUs {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 28rem;
+        padding-bottom: 1rem;
+    }
+
+    .homeAboutUs p {
+        margin-top: 21%;
+    }
+
+    .homeFeatured {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .featuredColumn {
+        max-width: 35rem;
+    }
+
+    .portfolioContainer {
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 35rem;
+    }
+    
+    .portfolioProject {
+        width: 100%;
+        height: 15rem;
+    }
+    
+    #seraph {
+        background-image: url("/assets2/portfolio/tablet/image-seraph.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #eebox {
+        background-image: url("/assets2/portfolio/tablet/image-eebox.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #federal {
+        background-image: url("/assets2/portfolio/tablet/image-federal.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #delSol {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-del-sol.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #lePrototype {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-prototype.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #tower {
+        background-image: url("/assets2/portfolio/tablet/image-228b.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #grandEdelweiss {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-edelweiss.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #netcry {
+        background-image: url("/assets2/portfolio/tablet/image-netcry.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #hypers {
+        background-image: url("/assets2/portfolio/tablet/image-hypers.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #sxivTower {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 200%), url("/assets2/portfolio/tablet/image-sxiv.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #trinityBank {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-trinity.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #projectParamour {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/tablet/image-paramour.jpg");
+        margin-bottom: 6rem;
+    }
+
+    .aboutUsHeader {
+        margin-left: 5%;
+        margin-right: 5%;
+        background-image: url("/assets2/about/mobile/image-hero.jpg");
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-size:contain;
+    }
+    
+    .aboutUsHeader h1 {
+        display: none;
+    }
+
+    #aboutLine {
+        display: none;
+    }
+
+    .aboutUsHeaderText {
+        background-color: white;
+        max-width:fit-content;
+        margin-top: 18rem;
+        margin-right: 5%;
+        padding-left: 0rem;
+        padding-top: 3rem;
+    }
+
+    .aboutUsHeaderText p {
+        font-size: 40px;
+        max-width: fit-content;
+    }
+
+    .ourHeritage {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10rem;
+    }
+
+    .theLeaders {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .leaderImageContainer {
+        max-width: 25rem;
+    }
+
+    .leaderImage:nth-child(even) {
+        margin-left: 0rem;
+    }
+
+    .contactHeader h1 {
+        display: none;
+    }
+
+    #contactLine {
+        display: none;
+    }
+
+    .contactDetails {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contactConnect {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contactHeader {
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 90%;
+        background-size: 90%;
+        align-items: flex-start;
+    }
+
+    .contactHeaderText p {
+        letter-spacing: -1px;
+        max-width: 22rem;
+        font-size: 40px;
+        margin-top: 4rem;
+    }
+
+    .contactHeaderText p:nth-child(3) {
+        max-width: 110%;
+        margin-top: -1rem;
+    }
+
+    .contactHeaderText {
+        width: 80%;
+        margin-top: 11rem;
+        padding-left: 0rem;
+        padding-top: 0rem;
+    }
+
+    .contactDetails {
+        margin-top: -9rem;
+    }
+
+    .contactConnect input {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 560px) { 
+    .homeAboutUs {
+        height: 24rem;
+    }
+
+    .homeAboutUs p {
+        margin-top: 18%;
+        margin-left: 10%;
+    }
+
+    .homeAboutUs button {
+        margin-left: 10%;
+    }
+} 
+
+@media screen and (max-width: 490px) { 
+    .topnav p {
+        margin-right: 0.5rem;
+
+    }
+    
+    .topnav a {
+        font-size: 15px;
+        margin-top: 3.2rem;
+        padding-right: 0.6rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .topnav a:nth-child(4){
+        padding-right: 0;
+    }
+
+    .homeSlides img {
+        content: url('/assets2/home/mobile/image-hero-paramour.jpg');
+        max-height: 30rem;
+    }
+
+    .headerText {
+        margin-top: 4rem;
+        margin-left: 8%;
+    }
+
+    .headerText h1 {
+        font-size: 48px;
+    }
+
+    .headerText p {
+        font-size: 15px;
+    }
+
+    .welcomeContainer h2 {
+        display: none;
+    }
+
+    .homeWelcome {
+        margin-top: 7rem;
+    }
+
+    #welcomeToArch {
+        font-size: 40px;
+    }
+
+    #welcomePara {
+        margin-top: 9rem;
+        font-size: 15px;
+    }
+
+    .homeAboutUs {
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/assets2/home/mobile/image-small-team.jpg");
+        padding-bottom: 5rem;
+    }
+
+    .homeAboutUs {
+        margin-top: 6rem;
+    }
+
+    .homeAboutUs p{
+        font-size: 40px;
+        margin-top: 8rem;
+    }
+
+    #featured1 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/mobile/image-del-sol.jpg);
+        max-width: 19rem;
+    }
+    
+    #featured2 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/mobile/image-228b.jpg);
+        max-width: 19rem;
+    }
+    
+    #featured3 {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url(/assets2/portfolio/mobile/image-prototype.jpg);
+        max-width: 19rem;
+    }
+
+    .featuredColumn p:nth-child(1) {
+        display: none;
+    }
+
+    .homeFeatured button {
+        display: none;
+    }
+
+    .homeFeatured h3 {
+        font-size: 40px;
+    }
+
+    .homeFeatured {
+        margin-top: 5rem;
+    }
+
+    .aboutUsHeaderText {
+        margin-top: 12rem;
+    }
+
+    .ourHeritage {
+        margin-top: 0rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) { 
+    .portfolioContainer {
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 19rem;
+    }
+    
+    .portfolioProject {
+        width: 100%;
+        height: 15rem;
+    }
+    
+    #seraph {
+        background-image: url("/assets2/portfolio/mobile/image-seraph.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #eebox {
+        background-image: url("/assets2/portfolio/mobile/image-eebox.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #federal {
+        background-image: url("/assets2/portfolio/mobile/image-federal.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #delSol {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/mobile/image-del-sol.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #lePrototype {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/mobile/image-prototype.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #tower {
+        background-image: url("/assets2/portfolio/mobile/image-228b.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #grandEdelweiss {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/mobile/image-edelweiss.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #netcry {
+        background-image: url("/assets2/portfolio/mobile/image-netcry.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #hypers {
+        background-image: url("/assets2/portfolio/mobile/image-hypers.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #sxivTower {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 200%), url("/assets2/portfolio/mobile/image-sxiv.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #trinityBank {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/mobile/image-trinity.jpg");
+        margin-bottom: 2rem;
+    }
+    
+    #projectParamour {
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.01%, rgba(0, 0, 0, 0.499044) 150%), url("/assets2/portfolio/mobile/image-paramour.jpg");
+        margin-bottom: 6rem;
+    }
+}
