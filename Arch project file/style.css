@@ -1568,7 +1568,7 @@ footer button {
     }
 
     .homeSlides img {
-        content: url('/assets2/home/mobile/image-hero-paramour.jpg');
+        content: url('assets2/home/mobile/image-hero-paramour.jpg');
         max-height: 30rem;
     }
 
