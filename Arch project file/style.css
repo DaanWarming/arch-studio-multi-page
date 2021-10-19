@@ -2,8 +2,11 @@
     font-family: 'Spartan', sans-serif;
 }
 
-/* top navigation bar */
+body {
+    overflow: hidden;
+}
 
+/* top navigation bar */
 .topnav {
     padding-left: 16%;
     overflow: auto;
